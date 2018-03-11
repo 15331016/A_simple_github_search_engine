@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<TextView
+android:id="@+id/name"
+android:text="AgendaAdvanced"
+android:textSize="16sp"
+android:textStyle="bold"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginBottom="8dp"/>
+<TextView
+android:id="@+id/language"
+android:text="C++"
+android:textSize="14sp"
+android:textStyle="bold"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="8dp"/>
+<TextView
+android:id="@+id/description"
+android:text="带GUI和Socket的Agenda"
+android:textSize="14sp"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:maxLines="1"
+android:ellipsize="end"  />
+    </LinearLayout>
